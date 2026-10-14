@@ -1,0 +1,43 @@
+.AmazonCards{
+    border: 2px solid rgb(103, 103, 36);
+    width: 250px;
+    height: 190px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.AmazonCards h2{
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.AmazonCards p{
+    color: #0f0e0e;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+/* .AmazonCards .oldprice{
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    text-decoration: line-through;
+} */
+/* .AmazonCards .newprice{
+    color: #313432;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.AmazonCards .price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(122, 130, 61);
+    border-radius: 0px 0px 20px 20px;
+    border-collapse: collapse;
+} */

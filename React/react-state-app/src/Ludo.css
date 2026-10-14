@@ -1,0 +1,59 @@
+.blue{
+    background-color:blue;
+    border: 2px solid #0f0b0b;
+    border-radius:25px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h1{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.red{
+    background-color: red;
+    border: 2px solid #0f0b0b;
+    border-radius:25px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.green{
+    background-color:green;
+    border: 2px solid #0f0b0b;
+    border-radius:25px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.yellow{
+    background-color:yellow;
+    border: 2px solid #0f0b0b;
+    border-radius:25px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ludo1,.ludo2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 120px;
+    margin: 20px;
+}
+.Ludo{
+    border: 2px solid #151313;
+    border-radius:25px;
+    width: 800px;
+    height: 550px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin:40px;
+    background-color: #a99696;
+}
