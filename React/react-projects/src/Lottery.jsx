@@ -1,9 +1,13 @@
 import React from 'react'
+// import {checkWin} from './helper'
 
-const Lottery = () => {
+const Lottery = ({ticket}) => {
+
+    
   return (
     <div>
-        <h1>Lottery</h1>
+        <h1 style={{textAlign:'center'}}>Lottery</h1>
+        <h1>Lottery Ticket = {ticket}</h1>
     </div>
   )
 }

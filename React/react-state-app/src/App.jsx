@@ -8,7 +8,7 @@ import './App.css'
 const App = () => {
   return(
     <div className="app">
-      <h2>My Todo Task App</h2>
+      {/* <h2>My Todo Task App</h2> */}
   {/* // <Counter/>
   // <LikeButton/>
   // <Ludo/> */}
