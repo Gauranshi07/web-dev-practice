@@ -1,19 +1,13 @@
-function getTicket(){
-        let max=999;
-        let min=100;
-        return Math.floor(Math.random()*(max-min+1))+min
-}
-
-function checkWin(ticket){
-        let digit=0;
-        let sum=0;
-        while(ticket>0){
-                digit=ticket%10;
-                sum+=digit
-                digit=0
-                ticket=Math.floor(ticket/10)
+function getTicket(n){
+        let arr=new Array(n)
+        for(let i=0;i<n;i++){
+        arr[i] = Math.floor(Math.random()*10)
         }
-        return sum
+        return arr;
 }
 
-export {getTicket,checkWin}
+function sum(arr){
+        return arr.reduce((sum,val)=> sum+val, 0)
+}
+
+export {getTicket,sum}

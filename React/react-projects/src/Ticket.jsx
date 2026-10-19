@@ -1,15 +1,14 @@
-import React from 'react'
-import {useState} from 'react'
-import {getTicket} from './helper'
+import TicketNum from './TicketNum'
 
-const Ticket = ({ticket,setTicket}) => {
+const Ticket = ({ticket}) => {
 
-    function updateNumber(){
-setTicket(getTicket())
-}
   return (
     <div>
-        <button onClick={updateNumber} style={{width:'170px',height:'40px',fontSize:'20px',border:'1px solid rgb(12, 70, 84)',borderRadius:'10px',backgroundColor:'rgb(12, 70, 84)',color:'aliceblue',fontWeight:'550',marginLeft:'50px'}}>Get New Ticket</button>
+      <h1>Lottery: {
+        ticket.map((num,idx)=>(
+          <TicketNum num={num} key={idx}/>
+        ))
+      }</h1>
     </div>
   )
 } 

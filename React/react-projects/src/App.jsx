@@ -1,10 +1,10 @@
 import React from 'react'
-import LotteryGame from './LotteryGame'
+import Lottery from './Lottery'
 
 const App = () => {
   return (
     <div>
-      <LotteryGame />
+      <Lottery n={3} winningSum={15}/>
     </div>
   )
 }
