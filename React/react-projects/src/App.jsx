@@ -1,10 +1,14 @@
 import React from 'react'
 import Lottery from './Lottery'
+import {sum} from './helper'
 
 const App = () => {
+  function winCondition(ticket){
+    return ticket.every((num)=> num==ticket[0]);
+  }
   return (
     <div>
-      <Lottery n={3} winningSum={15}/>
+      <Lottery n={3} winCondition={winCondition}/>
     </div>
   )
 }
