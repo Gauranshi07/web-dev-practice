@@ -4,7 +4,8 @@ import LikeButton from './LikeButton'
 import Ludo from './Ludo'
 import Todo from './Todo'
 import Form from './Form'
-import './App.css'
+import CommentForm from './CommentForm'
+// import './App.css'
 
 const App = () => {
   return(
@@ -14,7 +15,7 @@ const App = () => {
   // <LikeButton/>
   // <Ludo/> */}
   {/* <Todo /> */}
-  <Form/>
+  <CommentForm/>
   </div>
   )
 }

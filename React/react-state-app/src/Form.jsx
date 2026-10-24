@@ -32,7 +32,7 @@ export default function Form(){
         <form onSubmit={handleFormSubmit}>
             <label htmlFor="fullName">Full Name: </label>
             <input placeholder="Enter full name" type="text" value={formData.fullName} onChange={handleInputChange} id="fullName" name="fullName"/>
-            {/* yaha pr hum name ko bilkul same rkhenge humare object ki key se taaki wahi form ki state update ho jisse hum krna chahte hai */}
+            {/* yaha pr hum name ko bilkul same rkhenge humare object ki key se taaki wahi form ki state update ho jisse hum krna chahte hai basically hum evt.target.name ko access kr ske isliye name ko bilkul same rkhna hai */}
 
             <label htmlFor="username">User Name: </label>
             <input placeholder="Enter user name" type="text" value={formData.userName} onChange={handleInputChange} id="username"  name="userName"/>
