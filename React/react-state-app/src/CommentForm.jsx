@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import "./CommentForm.css"
 
-const CommentForm = () => {
+const CommentForm = ({addNewComment}) => {
     const [formData,setFormData] = useState({
         username:"",
         remarks:"",
@@ -17,6 +17,7 @@ const CommentForm = () => {
 
     function handleFormSubmit(evt){
         console.log(formData)
+        addNewComment(formData)
         evt.preventDefault();
         setFormData({
         username:"",

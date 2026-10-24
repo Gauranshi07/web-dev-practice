@@ -1,0 +1,16 @@
+.comment{
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.Comment{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
