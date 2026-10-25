@@ -7,6 +7,8 @@ import Form from './Form'
 // import CommentForm from './CommentForm'
 import Comment from './Comment'
 import './App.css'
+import Counter1 from './Counter1'
+import Joker from './Joker'
 
 const App = () => {
   return(
@@ -17,7 +19,10 @@ const App = () => {
   // <Ludo/> */}
   {/* <Todo /> */}
   {/* <CommentForm/> */}
-  <Comment/>
+  {/* <Comment/> */}
+
+  {/* <Counter1/> */}
+  <Joker/>
   </div>
   )
 }

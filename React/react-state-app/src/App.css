@@ -2,20 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-direction: row;
+  flex-direction: column;
   gap: 40px;
 }
-/* #root {
+#root {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-} */
-.comments-section {
+}
+/* .comments-section {
     border-left: 2px solid #6c63ff;
     padding-left: 40px;
     margin-left: 10px;
     min-height: 300px;
     align-self: stretch;
-}
+} */
